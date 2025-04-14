@@ -1,8 +1,0 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-# Run the removeComments script before the commit
-node ./scripts/removeComments.js
-
-# Add the files back after modification
-git add .
