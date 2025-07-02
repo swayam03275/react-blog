@@ -1,12 +1,65 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Tech Stack
+⚛️ React – Frontend library
 
-Currently, two official plugins are available:
+🧩 Appwrite – Backend-as-a-Service (Auth, DB, Storage)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎯 Custom Hooks – For managing form state and validation
 
-## Expanding the ESLint configuration
+💨 Tailwind CSS – Utility-first CSS framework
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📝 Rich Text Editor – For blog content formatting
+
+
+✨ Features
+🔐 User Authentication (Sign Up / Login / Logout)
+
+📝 Create, Edit, and Delete Blogs
+
+📁 Upload and display blog cover images using Appwrite Storage
+
+🌈 Responsive and clean UI
+
+🧠 Custom hooks for reusable form logic
+
+📰 Rich Text Editor for formatting blog content
+
+
+🔧 Installation & Setup
+# Clone the repo
+git clone https://github.com/yourusername/blog-app.git
+cd blog-app
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+
+🔑 Environment Variables
+
+VITE_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
+VITE_APPWRITE_PROJECT_ID=your_project_id
+VITE_APPWRITE_DATABASE_ID=your_database_id
+VITE_APPWRITE_COLLECTION_ID=your_collection_id
+VITE_APPWRITE_BUCKET_ID=your_bucket_id
+
+📁 Folder Structure
+
+src/
+├── components/        # UI components
+├── pages/             # Route-based pages
+├── hooks/             # Custom form hooks
+│   └── useForm.js
+├── utils/             # Appwrite config & helpers
+├── App.jsx            # App routes
+├── main.jsx           # Entry point
+└── index.css          # Tailwind base styles
+
+
+📗 License
+This project is licensed under the MIT License.
+
+🙋‍♂️ Author
+Crafted with ❤️ by Swayam Agarwal
